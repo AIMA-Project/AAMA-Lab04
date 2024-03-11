@@ -7,6 +7,5 @@ prettytable
 matplotlib
 ipython
 tensorflow
-tensorrt
 keras
 shap

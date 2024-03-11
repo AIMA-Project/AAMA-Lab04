@@ -2,11 +2,11 @@ FROM python:3.11
 
 WORKDIR /lab04
 
-COPY requirements.txt .
+COPY resources/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY numeric.csv .
-COPY poisoning_lab.ipynb .
+COPY resources/numeric.csv .
+COPY resources/poisoning_lab.ipynb .
 
 EXPOSE 8888
 
